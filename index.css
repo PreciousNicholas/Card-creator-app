@@ -246,11 +246,11 @@
     display: grid;
     grid-gap: 1.5rem;
     width: 100%;
-    padding: 16px;
+    padding: 10px;
     max-width: 400px;
     margin: 3rem auto;
     background-color: whitesmoke;
-    border-radius: 15px;
+    border-radius: 10px;
   
     box-shadow: 0 0 8px rgba(7, 4, 4, 0.2);
   }
@@ -261,10 +261,10 @@
   
   .form-control {
     position: relative;
-    padding-top: 16px; 
+    padding-top: 10px; 
     padding-bottom: 10px;
     font-size: 16px;
-    color: #1444;
+    color: rgba(3, 3, 3, 0.267);
   }
   
   .box {
@@ -299,10 +299,10 @@
     color: var(--primary-color);
   }
   
-  /* .box:focus,
+  .box:focus,
   .box:valid {
     border-bottom: 2px solid var(--primary-color);
-  } */
+  }
   
   @media screen and (min-width: 360px) {
     .debit {
